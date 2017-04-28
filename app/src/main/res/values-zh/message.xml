@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="e_000_001">没有网络连接.</string>
+    <string name="m_000_001">欢迎</string>
+    <string name="m_000_002">请输入用户名</string>
+    <string name="m_000_003">请输入密码</string>
+    <string name="m_000_004">代理服务器不正确</string>
+    <string name="m_000_005">登录失败</string>
+    <string name="m_000_006">登录成功</string>
+    <string name="m_000_007">日期格式不正确</string>
+    <string name="m_000_008">坐标x格式不正确</string>
+    <string name="m_000_009">坐标y格式不正确</string>
+    <string name="m_000_010">部队未选择</string>
+    <string name="remote_service_started">开始</string>
+    <string name="remote_service_stopped">停止</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorStatusBackInfo">#4340ff</color>
+    <color name="colorStatusBackWarn">#ff40fc</color>
+    <color name="colorStatusBackError">#ff405d</color>
+    <color name="colorStatusFontInfo">#ffffff</color>
+    <color name="colorStatusFontWarn">#15653b</color>
+    <color name="colorStatusFontError">#f9f6f6</color>
+</resources>

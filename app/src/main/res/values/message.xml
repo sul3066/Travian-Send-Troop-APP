@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="e_000_001">no network connection.</string>
+    <string name="m_000_001">welcome</string>
+    <string name="m_000_002">Please input Username</string>
+    <string name="m_000_003">Please input password</string>
+    <string name="m_000_004">proxy not correct</string>
+    <string name="m_000_005">login failed</string>
+    <string name="m_000_006">login success</string>
+    <string name="m_000_007">date format not correct</string>
+    <string name="m_000_008">target x format not correct</string>
+    <string name="m_000_009">target y format not correct</string>
+    <string name="m_000_010">please seelct troop</string>
+    <string name="remote_service_started">started</string>
+    <string name="remote_service_stopped">stopped</string>
+</resources>
