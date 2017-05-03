@@ -31,7 +31,7 @@ public class SendTroopPlatform {
     private ILogger.LogLevel loglevel = ILogger.LogLevel.TRACE;
     private static SendTroopPlatform ourInstance = new SendTroopPlatform();
     private View rootView = null;
-    private ILogger currentLogger = null;
+    private UILogger currentLogger = null;
     private List<ITask> runTasks=new ArrayList<ITask>();
     public Activity mainAct=null;
     WakeLock wakeLock = null;
@@ -47,12 +47,12 @@ public class SendTroopPlatform {
 
     public void runFront(){
         isActive=true;
-
+        currentLogger.setUIActiveFlg(true);
     }
 
     public void moveToBack(){
         isActive=false;
-
+        currentLogger.setUIActiveFlg(false);
     }
 
     public boolean getActiveStatus(){
@@ -72,7 +72,7 @@ public class SendTroopPlatform {
 
     public ILogger getLogger(TextView txt){
         if (txt != null)
-            currentLogger =  UILogger.getLogger(txt, loglevel);
+            currentLogger =  (UILogger)UILogger.getLogger(txt, loglevel);
 
         return currentLogger;
     }

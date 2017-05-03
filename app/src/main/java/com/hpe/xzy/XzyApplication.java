@@ -15,7 +15,7 @@ public class XzyApplication extends Application {
     }
 
     public void onCreate() {
-        Log.i(this.getClass().getName(), "on create");
+        Log.i(this.getClass().getName(), "on app create");
     }
 
 }

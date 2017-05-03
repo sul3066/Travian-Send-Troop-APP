@@ -19,7 +19,7 @@ public class UILogger implements ILogger {
     private int runlevel=LogLevel.INFO.getIntvalue();
     private  StringBuilder logmessage=new StringBuilder();
     private static ILogger instance = null;
-    private boolean uiactive=false;
+    public boolean uiactive=false;
     protected UILogger(TextView view,LogLevel level){
         uitext = view;
         runlevel=level.getIntvalue();
